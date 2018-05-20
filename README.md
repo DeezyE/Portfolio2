@@ -1,5 +1,4 @@
-# Portfolio2
-### The updated portfolio 
+# Portfolio2 _The updated portfolio_ 
 
 ## Development diary
 ### May20 2018
