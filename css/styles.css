@@ -76,17 +76,30 @@
 }
 
 .container {
- background-color: #A2A4A3; 
- display: flex;
- flex-wrap: wrap;
- align-content: flex-start;
+  background-color: #A2A4A3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 10px;
 }
 
 .container ul {
- background-color: #CF19E8;
- padding: 5px;
- display: flex;
- flex-wrap: wrap;
+  background-color: #CF19E8;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}
+
+@media (min-width: 992px) {
+  .container {
+    background-color: teal;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+  .container ul.skillset {
+    background-color: yellow;
+    grid-column-start: 2;
+  }
 }
 
 li {
@@ -98,11 +111,10 @@ li {
 }
 
 li:not(.title):before {
-  content:'';
-  float:left;
-  padding-top:100%;
+  content: '';
+  float: left;
+  padding-top: 100%;
 }
-
 
 .title {
   width: 99%;

@@ -24,3 +24,22 @@ Wrote a medium article about my classmate getting a job. I wanted to express som
 ### May22
 Not as productive a morning as I'd hoped. I need to keep my headphones in and find my focus zone. Spent most of the time reconnecting some of the parts of the old site that I liked - Font Awesome icons and some CSS. Sorted out some of VS Code's github tools. I like them so far. Anything to make the github UX a smoother one is a win in my book.
 Left class early, had to run an errand for my boss (I have a side job) that had to be done before 5pm. Home for dinner then off to work again. The hustle is real.
+
+### May23
+Made a nice functional jump between just a boring `<ul>` and items, to the start of a responsive layout. I think this little jump is a nice dopamine hit to remind you that you're progressing. Layout looks a bit dumb with the sections just doing the basic Flex operation. Need to make one of the sections pop over to a 2nd column after a breakpoint is hit.
+
+### May24
+Recycled a sprite bottle in the Reverse Vending Machine... Fun stuff, I think it's still in demo mode but I virtually gave 10c to Endeavour Foundation. 
+Added the 2-column breakpoint at the same breakpoint that Bootstrap does (I like their breakpoint breakdown). Here's a before/after.
+
+**Before**
+
+[before breakpoint](https://github.com/DeezyE/Portfolio2/blob/master/assets/beforeBreakPoint.png)
+
+**After**
+
+[after breakpoint](https://github.com/DeezyE/Portfolio2/blob/master/assets/afterBreakPoint.png)
+
+Progress is always slower than I'd like. But it's progress so I should be happy.
+
+
