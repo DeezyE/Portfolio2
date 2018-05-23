@@ -13,7 +13,7 @@ Here's what I wanted:
 - Mobile first. But still look good on desktop
 
 Here's the Flow graph (sort of) mixed with basic wireframe idea for UX. Single page, Mobile-first, responsive. 
-[Flow / Wireframe](https://github.com/DeezyE/Portfolio2/blob/master/assets/Screen%20Shot%202018-05-20%20at%204.23.41%20pm.png)
+![Flow / Wireframe](https://github.com/DeezyE/Portfolio2/blob/master/assets/flowDiagram.png "Flow Diagram")
 
 ### May21
 Am heading into town earlier than normal in order to snag a quiet spot to work on my portfolio. I sometimes talk too much in class and distract myself and others, so I'm separating myself for the sake of the project. Found a food court that's pretty quiet.
@@ -34,11 +34,11 @@ Added the 2-column breakpoint at the same breakpoint that Bootstrap does (I like
 
 **Before**
 
-[before breakpoint](https://github.com/DeezyE/Portfolio2/blob/master/assets/beforeBreakPoint.png)
+![before breakpoint](https://github.com/DeezyE/Portfolio2/blob/master/assets/beforeBreakPoint.png)
 
 **After**
 
-[after breakpoint](https://github.com/DeezyE/Portfolio2/blob/master/assets/afterBreakPoint.png)
+![after breakpoint](https://github.com/DeezyE/Portfolio2/blob/master/assets/afterBreakPoint.png)
 
 Progress is always slower than I'd like. But it's progress so I should be happy.
 
