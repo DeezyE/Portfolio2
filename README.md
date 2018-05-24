@@ -42,4 +42,14 @@ Added the 2-column breakpoint at the same breakpoint that Bootstrap does (I like
 
 Progress is always slower than I'd like. But it's progress so I should be happy.
 
+### May25
+**Fluff**
+Went into the city earlier than normal since I didn't get much done last night. I've walked past a building that has a nice lobby for months now and thought it would be a good place to sit and work - nice couches and tables. It did puzzle me that I never saw anyone sitting on them but I figured it was because it was morning and everyone has places to go at that time. I decided to try working there this morning and so I went in and ordered a coffee from the cafe and walked over to the couches. Turns out it's some sort of new and stylish Telstra office. There was a long desk opposite the couches with a guy sitting there and massive TELSTRA letters above the couches that I'd never noticed since they're 20ft off the ground. Well good work on the subtlety of your office space telstra - you look like a library. I contemplated sitting there but decided I didn't want a new phone or plan so I went to the old stand-by that has served me well so far. 400 George St. Upstairs. It's heated which is nice this time of year.
+
+**Actual Dev Diary Content**
+Oh yeah, dev diary, how about some dev talk?
+Spent an hour tweaking the CSS to behave as I wanted and am still not happy with how it's displaying. By 8:15 I realised that I think I actually want a full grid layout rather than grid/flex combo. That's fine I'll swap that out later. Began working on the jquery popups for each `<li>`. Needs to throw up a window that contains info about the item that the user clicks on. 
+
+Using a jQuery CDN, plus some custom JS/Query for the info popups
+
 
