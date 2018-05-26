@@ -51,5 +51,24 @@ Oh yeah, dev diary, how about some dev talk?
 Spent an hour tweaking the CSS to behave as I wanted and am still not happy with how it's displaying. By 8:15 I realised that I think I actually want a full grid layout rather than grid/flex combo. That's fine I'll swap that out later. Began working on the jquery popups for each `<li>`. Needs to throw up a window that contains info about the item that the user clicks on. 
 
 Using a jQuery CDN, plus some custom JS/Query for the info popups
+Basic setup of the popup. Lots of troubleshooting since I'm fairly new to jQuery :)
 
+**Meetup**
+Was invited by Scrunch (through Caroline and Nick) to go to their end-of-week recap/beers/cheese-platter thing. We arrived to a rowdy and enthusiastic 15 odd staff who recapped the week thus far. Their enthusiasm, banter and general good vibe impressed upon me the value of a great work culture. I enjoyed listening to their accomplishments and then hanging out afterwards. Great team, I hope they do well! I also need to check out the standing desk setup they have, it's very cool!
 
+### May26
+**Fluff**
+Did some IRL work today, a couple of hours with my darling wife, gluing roof panels for beehives. She's shown herself to be a damn impressive worker, with an incredible eye for detail and quality. No wonder my boss calls her the Mistress of quality. Happy to see her discover a new area of expertise.
+
+**Dev**
+Went to a cafe to work on site some more. Focus today is nailing the popup mechanics. Was having trouble getting the div selected using my external `.js` file. Ended up temporarily dropping the js into the html file until I could get it working. Turned out it was an incorrectly named .css class causing me issues. Good to see it function finally.
+
+Ignore the colors, they're just for getting framework done
+![Popup](https://github.com/DeezyE/Portfolio2/blob/master/assets/popUpRunning.png)
+
+Next step is getting Vue or JS to populate the overlay with data dependent on which card is clicked on... Have an idea of hwo to do so. I quite like the syntax and function of Vue. Looking forward to seeing how React deals with the same situation.
+
+Discovered that Vue's `v-on:click` returns the element that was clicked and is accessible through `.currentTarget` which is fantastic! That means I can set up the same on click event on every list item and have logic that populates the `<div>` automatically! Excited....
+
+**Hustle**
+3D Modeled a replica of TARS from the movie Interstellar (fantastic movie) but customized it for TANDA. Ran a few test prints on my 3D printer then sent the first of 4 pieces to print. They'll each take 4~ hours to print, so I hope it all works and looks good because I wont have enough time to reprint.
