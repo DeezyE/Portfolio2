@@ -72,3 +72,11 @@ Discovered that Vue's `v-on:click` returns the element that was clicked and is a
 
 **Hustle**
 3D Modeled a replica of TARS from the movie Interstellar (fantastic movie) but customized it for TANDA. Ran a few test prints on my 3D printer then sent the first of 4 pieces to print. They'll each take 4~ hours to print, so I hope it all works and looks good because I wont have enough time to reprint.
+
+### May27
+**Fluff**
+Up for a morning walk and brekky down the road. I love this part of the week, gives my wife and I a chance to catch up, chill out and get some excercise.
+
+**Dev**
+Finalized the on click logic which works wonderfully! It will be much easier to style these divs since I can apply the styling once and know that the JS will do the rest. Plus it feels good to have automation. Love it.
+Continued with incremental CSS changes and implementing colours. Attempting to use colours to theme the sections. Doing so without making the screen to overwhelming and bright is not straightforward... Colored text is a pretty bad choice so I'm avoiding it.
