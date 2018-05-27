@@ -19,6 +19,16 @@
   box-shadow: -10px 0 15px #1A1a1a, 10px 0 15px #1A1a1a;
 }
 
+body,  html {
+  background-color: rgb(51, 51, 51) !important;
+}
+
+#app {
+  font-family: 'Kanit', sans-serif;
+
+
+}
+
 .isaacName {
   text-align: right;
   -ms-grid-column: 1;
@@ -76,7 +86,7 @@
 }
 
 .container {
-  background-color: #A2A4A3;
+  background-color: rgb(68, 68, 68);
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 15px;
@@ -84,7 +94,7 @@
 }
  
 .container ul {
-  background-color: #CF19E8;
+  background-color: rgb(68, 68, 68);
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -93,25 +103,39 @@
 
 @media (min-width: 992px) {
   .container {
-    background-color: teal;
     grid-template-columns: 1fr 1fr;
   
   }
   .container ul.skillset {
-    background-color: yellow;
     grid-column-start: 2;
   }
   
 }
 
 li {
-  background-color: blue;
   list-style-type: none;
-  /* flex-basis: 25%; */
+  font-size: 8pt;
   width: 120px;
-  height: 120px;
+  height: 150px;
   margin: 10px;
-  /* height: auto; */
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #CF19E8;
+}
+
+li span {
+  bottom: 4px;
+  position: absolute;
+  text-align: center;
+}
+
+li img {
+  width: 110px;
+  height: 120px;
+  border-radius: 3px;
 }
 
 /* li:before {
@@ -121,15 +145,16 @@ li {
 
 .title {
   margin: 10px;
-  background-color: aqua;
   width: 99%;
+  font-size: 16pt;
+  font-weight: 600;
 }
 
 .popDiv {
   visibility: hidden;
   opacity: 0.95;
   width: 95vw;
-  height: 95vh;
+  height: auto;
   background-color: rgb(185, 39, 39);
   color: #fff;
   text-align: center;

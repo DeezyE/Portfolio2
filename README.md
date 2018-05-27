@@ -7,7 +7,7 @@ Yesterday and today I finalized some of the user flow. It was a sticking point f
 I struggled with resolving my original design of 4 panels [Original portfolio link](https://deezye.github.io/folio2018/)
 I knew that the site was created from the design first, and I had wrested the UX into the design rather than starting with UX first - a mistake. So I really wanted to get to the core of what I wanted from a site. 
 Here's what I wanted:
-- A simple design, one page was my original idea
+- A simple design, a single page portfolio was my initial concept and goal.
 - Conveyed my personality strongly. I want the user to know me by browsing the site
 - Retro / Vaporwave / Bold colors. I want the site to stand out
 - Mobile first. But still look good on desktop
