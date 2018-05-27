@@ -89,6 +89,7 @@ body,  html {
   background-color: rgb(59, 59, 59);
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   grid-column-gap: 15px;
   grid-auto-flow: dense;
 }
@@ -98,8 +99,9 @@ body,  html {
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-content: flex-start;
+  grid-column-start: 1;
 }
 
 @media (min-width: 992px) {
@@ -116,13 +118,18 @@ body,  html {
 li {
   list-style-type: none;
   font-size: 8pt;
-  width: 120px;
-  height: 150px;
-  margin: 10px;
+  width: 140px;
+  height: 140px;
+  /* min-width: 130px;
+  max-width: 160px;
+  flex-basis: auto; /* default value */
+  /* flex-grow: 1; */
+
   border-radius: 5px;
   padding: 5px;
   position: relative;
   display: flex;
+  margin: 10px;
   justify-content: center;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
@@ -150,7 +157,7 @@ li {
 }
 
 .interests li {
-  background-color: rgb(51, 51, 51);
+  background-color: #333333;
   border: 1px solid #FE0000;
 }
 
@@ -163,11 +170,16 @@ li span {
   position: absolute;
   text-align: center;
   color: rgb(190, 190, 190);
+  background-color: #333333;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
 }
 
 li img {
-  width: 110px;
-  height: 120px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
   border-radius: 3px;
 }
 
@@ -186,12 +198,14 @@ li img {
 
 .popDiv {
   visibility: hidden;
-  opacity: 0.95;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 1;
   width: 95vw;
   height: auto;
-  background-color: rgb(185, 39, 39);
+  background-color: #333333;
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
   border-radius: 6px;
   padding: 8px 0;
   position: absolute;
@@ -199,6 +213,9 @@ li img {
   top: 50%;
   left: 50%;
   z-index: 999;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
 .show {
@@ -219,14 +236,35 @@ li img {
 
 .popTitle {
   background-color: green;
+  width: 100%;
+  padding-left: 10px;
 }
 
 .popImg {
-  background-color: tan;
+  background-image: url("../images/honeyPotM.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 45%;
+  height: 350px;
+  background-color: red;
+  padding: 10px;
 }
 
 .popText {
+  max-width:400px;
+  max-height:400px;
+  
+  width: auto;
+  height: auto;
+  float: right;
   background-color: orange;
+}
+.popSub {
+  width: 100%;
+  padding-left: 10px;
+  background-color: rgb(0, 255, 213);
 }
 
 .close {
