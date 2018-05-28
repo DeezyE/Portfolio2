@@ -89,3 +89,11 @@ Having trouble getting my flex items to behave properly.. I'm sure it's one mino
 **Dev** 
 Went to be early last night and up early and in the city this morning. Didn't get the site done yesterday, I forgot I had my nieces party in the afternoon and then we got lost driving there :/
 
+Left school early to try finish up the grid-layout conversion. Flex just doesn't cut it for columns of items... It's almost as if it weren't designed for such a thing....
+Much happier with grid layout, now working on populating the data.
+
+I like how responsive the site is now but man it's boring. Need to bring back some of the interest from the old site.
+
+**Hustle**
+Sanded the parts to the 3d printed robot and glued the magnets into it. It functions well and looks pretty good.
+

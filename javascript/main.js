@@ -19,8 +19,13 @@ var app = new Vue({
             '<h4 class="popSub" >Designed the entire display with feedback from client</h4>' +
             '<div class="popContent">' +
             '<div class="popImg"> <img src="/images/yamahaRenderL.jpg" alt=""><img src="/images/yamahaRealL.jpg" alt=""> </div>' +
-            '<p class="popText">I worked on this project while working at Genesis Productions in Brisbane.<br><br> Yamaha\'s motorcycle division would commission a new trade show display each year. In this case they wanted one that was much bigger than the past and that could be broken down and transported in shipping containers as it traveled across the country. <br> I designed this in 3DS max with feedback from Yamaha during the process. They loved the final result and ended up using it for multiple years. <br> The final build was made almost entirely from aluminium square tube. </p></div> ',
-            something: '<h3 class="popTitle"> GoBigBanners.com </h3><p class="popText">While I worked at Megapixel Digital Imaging in the USA I was involved with launching this side venture. Originally it was a web app that allowed the user to design a banner online and order it</p> <img class="popImg" src="https://picsum.photos/200/300" alt="">',
+            '<p class="popText">I worked on this project while working at Genesis Productions in Brisbane.<br><br> Yamaha\'s motorcycle division would commission a new trade show display each year. In this case they wanted one that was much bigger than the past and that could be broken down and transported in shipping containers as it traveled across the country. <br> I designed this in 3DS max with feedback from Yamaha during the process. They loved the final result and ended up using it for multiple years. <br> The final build was made almost entirely from aluminium square tube. <br><br> Images show the initial 3D render/concept and then a photograph of the final display at the 2004 trade show in Brisbane. </p></div> ',
+            telluride: '<div class="close"><i class="fas fa-times"></i></div>' +
+            '<h3 class="popTitle">Telluride Ski Resort Interior</h3>' +
+            '<h4 class="popSub" >Refit of the locker room of a ski resort in Telluride, CO</h4>' +
+            '<div class="popContent">' +
+            '<div class="popImg"> <img src="/images/tellurideRender1L.jpg" alt=""><img src="/images/tellurideRender2L.jpg" alt=""> </div>' +
+            '<p class="popText">3D modeled the interior of the room from supplied reference photos and dimensions. Created using 3DS Max, MentalRay & Photoshop to simulate real-world lighting at the location. <br> <br> Communication with client and architect was regular during process.</p></div> ',
             wiredforwonder: '<h3 class="popTitle"> Wired For Wonder, Commonwealth Bank Event </h3><p class="popText">Head Graphic Designer for a conference on growth mindset</p> <img class="popImg" src="https://picsum.photos/200/300" alt="">',
         }
     },
