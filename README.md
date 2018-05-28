@@ -80,3 +80,12 @@ Up for a morning walk and brekky down the road. I love this part of the week, gi
 **Dev**
 Finalized the on click logic which works wonderfully! It will be much easier to style these divs since I can apply the styling once and know that the JS will do the rest. Plus it feels good to have automation. Love it.
 Continued with incremental CSS changes and implementing colours. Attempting to use colours to theme the sections. Doing so without making the screen to overwhelming and bright is not straightforward... Colored text is a pretty bad choice so I'm avoiding it.
+
+More time spent styling and jumping between babysitting my 3D prints. They've turned out pretty nicely though I've reprinted one section to emphasise the text on it.
+
+Having trouble getting my flex items to behave properly.. I'm sure it's one minor property I've missed but it's frustrating..
+
+### May28
+**Dev** 
+Went to be early last night and up early and in the city this morning. Didn't get the site done yesterday, I forgot I had my nieces party in the afternoon and then we got lost driving there :/
+

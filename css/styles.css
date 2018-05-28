@@ -89,47 +89,56 @@ body,  html {
   background-color: rgb(59, 59, 59);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: repeat(9, 100px;);
   grid-column-gap: 15px;
   grid-auto-flow: dense;
 }
- 
-.container ul {
+
+/* flex */
+/* .container ul {
   background-color: rgb(73, 73, 73);
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: stretch;
   align-content: flex-start;
+  grid-column-start: 1;
+} */
+
+/* grid */
+.container ul {
+  background-color: rgb(73, 73, 73);
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   grid-column-start: 1;
 }
 
 @media (min-width: 992px) {
   .container {
     grid-template-columns: 1fr 1fr;
-  
   }
   .container ul.skillset {
     grid-column-start: 2;
+    grid-row: span 3;
   }
-  
+  .container ul.projects {
+    /* grid-row: span 1; */
+    
+  }  
 }
 
-li {
+
+/* flex */
+li { 
   list-style-type: none;
   font-size: 8pt;
-  width: 140px;
-  height: 140px;
-  /* min-width: 130px;
-  max-width: 160px;
-  flex-basis: auto; /* default value */
-  /* flex-grow: 1; */
-
+  margin: 10px;
+  flex-basis: auto; 
   border-radius: 5px;
   padding: 5px;
   position: relative;
   display: flex;
-  margin: 10px;
   justify-content: center;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
@@ -177,15 +186,21 @@ li span {
   border-radius: 10px;
 }
 
-li img {
-  width: calc(100% - 1px);
+.thumb {
   height: calc(100% - 1px);
+  width: calc(100% - 1px);
+}
+
+li img {
+  width: inherit;
+  height: inherit;
   border-radius: 3px;
 }
 
 .title {
   margin: 10px;
-  width: 99%;
+  width: calc(100% - 20px);
+  grid-column: 1 / -1;
   font-size: 16pt;
   font-weight: 600;
   color: rgb(190, 190, 190);
@@ -198,14 +213,18 @@ li img {
 
 .popDiv {
   visibility: hidden;
+  font-weight: 400;
   display: flex;
+  display: -webkit-flex;
+  min-height: 400px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   opacity: 1;
   width: 95vw;
-  height: auto;
   background-color: #333333;
   color: #fff;
-  /* text-align: center; */
   border-radius: 6px;
   padding: 8px 0;
   position: absolute;
@@ -216,6 +235,7 @@ li img {
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  align-content: center;
 }
 
 .show {
@@ -235,40 +255,57 @@ li img {
 }
 
 .popTitle {
-  background-color: green;
   width: 100%;
   padding-left: 10px;
 }
 
 .popImg {
-  background-image: url("../images/honeyPotM.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  width: 45%;
-  height: 350px;
-  background-color: red;
-  padding: 10px;
+  /* flex: 50 0 auto; */
+  margin: 5px;
+  max-width: 400px;
+  min-width: 200px;
+  min-height: 150px;
+}
+
+.popImg img {
+  width: 100%;
+  height: auto;
+}
+
+.popContent {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  width: 100%;
 }
 
 .popText {
   max-width:400px;
-  max-height:400px;
-  
-  width: auto;
+  min-width:200px;
   height: auto;
-  float: right;
-  background-color: orange;
+  margin: 5px;
 }
 .popSub {
   width: 100%;
+  opacity: .5;
   padding-left: 10px;
-  background-color: rgb(0, 255, 213);
 }
 
 .close {
   position: absolute;
   right: 10px;
   top: 10px;
+}
+
+
+.item {
+  flex: 50 0 auto;
+  margin: 5px;
 }
