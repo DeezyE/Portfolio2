@@ -111,6 +111,11 @@ I decided to make some of the Skillset icons a little larger to emphasise my int
 I like it! Check it: 
 ![May29 Layout](https://github.com/DeezyE/Portfolio2/blob/master/assets/may29screen2.png)
 
+**Hustle**
+My first internship interview tomorrow! It's with 2ndlease.com.au I believe. Should be interesting. 
+
+Sent out my CV and a cover letter to PCCW global after our mentor - Anna Gerber told us that they were about to close applications for interns and that they have a great culture focus. My kind of jam!
+
 ### Todo
 - Switch my ugly html chunks in the .js file over to a prettier and more intelligent value-replacement system. 
 - Fix navbar
