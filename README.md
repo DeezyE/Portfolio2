@@ -106,10 +106,15 @@ And here's the layout with icons in place.
 
 Getting close for me to be ok with making it publicly visible. There's still some todo's to finalize - but I can do these over time.
 
-###Todo
+I decided to make some of the Skillset icons a little larger to emphasise my interest/skill in a few. Setting the Javascript one as `span 2 / span 2` looked great, but it felt like maybe it was too large in comparison. I decided to double the number of grid lines, then increase the span of each `li` to 2, then set the Javascript one as `span 3 / span 3` to make it just 150% larger rather than 200%. Looks good and it's helped break up the monotony of the grid layout. I went a little further and decreased my Minecraft and Fortnite skills down to `span 1 / span 1` since they're more of a joke skill (especially in Fortnite, I'm a joke) and it helped fill in the little holes leftover. I might use this to add more within the other sections and really give the page some unique flavor. 
+
+I like it! Check it: 
+![May29 Layout](https://github.com/DeezyE/Portfolio2/blob/master/assets/may29screen2.png)
+
+### Todo
 - Switch my ugly html chunks in the .js file over to a prettier and more intelligent value-replacement system. 
 - Fix navbar
 - Style popDiv better
 - Fix popDiv placement
 - Podcast/Book section?
-- Fix aspect ratio of cards OR fix the row fitting thing.
+- Fix aspect ratio of cards OR fix the row fitting thing. (solution might be to further the varied card sizes like I've done with skillset)
