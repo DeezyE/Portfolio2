@@ -157,6 +157,7 @@ body,  html {
   padding: 0px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-rows: repeat(20, auto);
   grid-column-start: 1;
   align-self: start;
 }
@@ -185,14 +186,14 @@ body,  html {
   }
   .container ul.projects {
     grid-column: 1;
-    grid-row: 1 / span 2
+    grid-row: 1;
   }  
   .container ul.interests {
-    grid-row: 3 / span 2;
+    grid-row: 2;
    }
   .container ul.skillset {
     grid-column-start: 2;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 20;
   }
 }
 
@@ -418,6 +419,8 @@ li img {
 .popContent {
   flex-wrap: wrap;
   display: flex;
+  max-height: 80vh;
+  overflow: auto;
   flex-direction: row;
   align-content: flex-start;
   justify-content: center;
@@ -432,8 +435,10 @@ li img {
 .popText {
   max-width:400px;
   min-width:200px;
-  height: auto;
+  height: 100%;;
   margin: 5px;
+  overflow: auto;
+
 }
 .popSub {
   width: 100%;
