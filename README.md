@@ -97,3 +97,19 @@ I like how responsive the site is now but man it's boring. Need to bring back so
 **Hustle**
 Sanded the parts to the 3d printed robot and glued the magnets into it. It functions well and looks pretty good.
 
+### May29
+**Dev**
+Added content and images to Interests section. Basically just adding content at this point.
+
+And here's the layout with icons in place.
+![May29 Layout](https://github.com/DeezyE/Portfolio2/blob/master/assets/may29screen.png)
+
+Getting close for me to be ok with making it publicly visible. There's still some todo's to finalize - but I can do these over time.
+
+###Todo
+- Switch my ugly html chunks in the .js file over to a prettier and more intelligent value-replacement system. 
+- Fix navbar
+- Style popDiv better
+- Fix popDiv placement
+- Podcast/Book section?
+- Fix aspect ratio of cards OR fix the row fitting thing.
