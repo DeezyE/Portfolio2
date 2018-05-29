@@ -30,7 +30,7 @@ var app = new Vue({
                 '<h3 class="popTitle">Portfolio 1 2018</h3>' +
                 '<h4 class="popSub" >Bold, Retro and not very responsive</h4>' +
                 '<div class="popContent">' +
-                '<div class="popImg"> <img src="images/portfoliov1L.png" alt=""> </div>' +
+                '<div class="popImg"> <img src="images/portfolioV1L.png" alt=""> </div>' +
                 '<p class="popText">This was our first assignment of 2018.<br> I was inspired by Cowboy Bebop and chose 4 colors and 4 panels as the main focus of the theme. As it progressed I also brought in some cues from Akira and general Vaporwave Aesthetic colors. <br> The end result was a UX that was cumbersome to navigate and wasn\'t very intuitive. <br> <br> My goal for the current site is to focus on mobile-first design.<br> Visit the original site here: <a href="https://deezye.github.io/folio2018/">Portfolio V1</a></p></div>',
             portfolio2: '<div class="close"><i class="fas fa-times"></i></div>' +
                 '<h3 class="popTitle">Portfolio 2</h3>' +
