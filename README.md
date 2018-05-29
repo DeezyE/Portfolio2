@@ -118,8 +118,8 @@ Sent out my CV and a cover letter to PCCW global after our mentor - Anna Gerber 
 
 ### Todo
 - Switch my ugly html chunks in the .js file over to a prettier and more intelligent value-replacement system. 
-- Fix navbar
+- ~~Fix navbar~~
 - Style popDiv better
-- Fix popDiv placement
-- Podcast/Book section?
+- Fix popDiv placement. Does not scroll on mobile.
+- Podcast/Book section? Perhaps expand interests to include.
 - Fix aspect ratio of cards OR fix the row fitting thing. (solution might be to further the varied card sizes like I've done with skillset)
