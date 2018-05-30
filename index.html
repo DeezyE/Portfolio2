@@ -67,7 +67,7 @@
 
   <!-- content container -->
   <div id="app" class="container">
-    <div class="popDiv" v-on:click="popClose()" id="IpopDiv"> </div>
+    <div class="popDiv" id="IpopDiv"> <div class="close" v-on:click="popClose()"><i class="fas fa-times"></i></div> </div>
     <ul class="projects">
       <div class="title">Projects</div>
       <li id="honeypot" v-on:click="popInfo($event)">
